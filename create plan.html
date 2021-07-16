@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:site_name" content="coffee.uz">
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/266900712/950b3e80-9eb6-11ea-9b4e-010725c3cc11">
+
+    <title>coffeeroasters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Fraunces:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" href="./img/Combined Shape.svg" type="image/x-icon">
+
+</head>
+<body>
+
+    <header id="mainHeader" class="header-links">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+
+                    <a href="#" class="col-auto"><img src="./img/logo.svg" alt="logo"></a>
+
+                <nav id="mainnav" class="col-auto">
+                    <a href="./index.html" class="header-link">HOME</a>
+                    <a href="./about us.html" class="header-link">ABOUT US</a>
+                    <a href="./create plan.html" class="header-link">Create your plan</a>
+                </nav>
+
+                <button class="menu-toggle open" onclick="openMenu()"><img src="./img/menu.svg" alt="menu"></button>
+                <button class="menu-toggle close" onclick="closeMenu()"><img src="./img/close.svg" alt=""></button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="intro">
+        <div class="container bg-intro-creat bg-img-intro">
+            <div class="inner-container">
+                <div class="text">
+                    <h1 class="white-text title">Create plan</h1>
+                    <p class="white-text pt-3">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="how-works">
+        <div class="container bg-works">
+            <div class="inner-container">
+                <div class="row position-relative">
+    
+                    <div class="col-lg-4 col-border line position-relative pt-5">
+                        
+                        <span class="circle"></span>
+                        <span class="number">01</span>
+                        <h3 class="works-step">Pick your coffee</h3>
+                        <p class="plan-text step-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+    
+                    </div>
+    
+                    <div class="col-lg-4 col-border position-relative pt-5">
+                        
+                        <span class="circle"></span>
+                        <span class="number">02</span>
+                        <h3 class="works-step">Choose the frequency</h3>
+                        <p class="plan-text step-text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+    
+                    </div>
+    
+                    <div class="col-lg-4 position-relative pt-5">
+                        
+                        <span class="circle"></span>
+                        <span class="number">03</span>
+                        <h3 class="works-step">Receive and enjoy!</h3>
+                        <p class="plan-text step-text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order-coffee">
+        <div class="inner-container">
+            <div class="row justify-content-between">
+
+                <div class="col-lg-3 order-list">
+                    
+                </div>
+
+                <div class="col-lg-8 choose-coffe">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div >
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    How do you drink your coffee ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body row">
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Capsule</h4>
+                                            <p>Compatible with Nespresso systems and similar brewers</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Filter</h4>
+                                            <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Espresso</h4>
+                                            <p> Dense and finely ground beans for an intense, flavorful experience</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div >
+
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    What type of coffee?
+                                </button>
+                            </h2>
+
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body row">
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Single Origin</h4>
+                                            <p>Distinct, high quality coffee from a specific family-owned farm</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Decaf</h4>
+                                            <p>Just like regular coffee, except the caffeine has been removed</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-4 how-coffee">
+                                        <div class="box">
+
+                                            <h4>Blended</h4>
+                                            <p>Combination of two or three dark roasted beans of organic coffees</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div >
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    How much would you like?
+                                </button>
+                            </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body row">
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>250g</h4>
+                                        <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>500g</h4>
+                                        <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>1000g</h4>
+                                        <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Want us to grind them?
+                                </button>
+                            </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body row">
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Wholebean</h4>
+                                        <p>Best choice if you cherish the full sensory experience</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Filter</h4>
+                                        <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Cafetiére</h4>
+                                        <p>Course ground beans specially suited for french press coffee</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    How often should we deliver?
+                                </button>
+                            </h2>
+                          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body row">
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Every week</h4>
+                                        <p>$7.20 per shipment. Includes free first-class shipping.</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Every 2 weeks</h4>
+                                        <p>$9.60 per shipment. Includes free priority shipping.</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 how-coffee">
+                                    <div class="box">
+                                        <h4>Every month</h4>
+                                        <p>$12.00 per shipment. Includes free priority shipping.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-end">
+                    <blockquote class="received">
+                        <span class="selected-name">Order Summary</span>
+                        <p>“I drink my coffee as <span class="selected">Filter</span>, with a <span class="selected">Decaf</span> type of bean. <span class="selected">250g</span> ground ala <span class="selected">Cafetiére</span>, sent to me <span class="selected">Every Week</span>.”</p>
+                    </blockquote>
+                    <a href="./create plan.html"  onclick="openModal()" class="white-text create-plan col-auto">Create my plan!</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <footer class="footer-links">
+
+        <div class="container footer-container">
+            <div class="inner-container">
+                <div class="row justify-content-between align-items-center">
+
+                    <nav class="col-auto">
+                        <a href="#" class="logo"><img src="./img/footer-logo.svg" alt="logo"></a>
+    
+                        
+                        <a href="./index.html" class="header-link footer-link">HOME</a>
+                        <a href="./about us.html" class="header-link footer-link">ABOUT US</a>
+                        <a href="./create plan.html" class="header-link footer-link">Create your plan</a>
+                    </nav>
+    
+                    <address class="col-auto">
+                
+                        <a href="#" class="icon"><span class="icon-Path"></span></a>
+                        <a href="#" class="icon"><span class="icon-twitter"></span></a>
+                        <a href="#" class="icon"><span class="icon-instagram"></span></a>
+    
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="modal" id="requestModal">
+        <header class="received-name">
+            <button type="button" id="closeModal" onclick="closeModal()"><img src="img/close.svg" alt=""></button>
+            <h3>Order Summary</h3>
+        </header>
+        <div class="selected-list">
+            <p>“I drink my coffee as <span class="selected">Filter</span>, with a <span class="selected">Decaf</span> type of bean. <span class="selected">250g</span> ground ala <span class="selected">Cafetiére</span>, sent to me <span class="selected">Every Week</span>.”</p>
+            <p>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+        </div>
+        <div class="check">
+             <span class="price">$14.00 / mo</span>
+             <button type="button" class="white-text create-plan col-auto border-0">Checkout</button>
+        </div>
+    </div>
+
+    <script>
+
+        const menu = document.getElementById('mainnav');
+        const header = document.getElementById('mainHeader');
+
+        function openMenu() {
+            menu.style.display = 'block';
+            header.classList = 'header-links on';
+        }
+
+        function closeMenu() {
+            menu.style.display = 'none';
+            header.classList = 'header-links';
+        }
+
+        const modal = document.getElementById('requestModal');
+
+        function openModal() {
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
